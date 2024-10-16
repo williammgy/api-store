@@ -1,0 +1,20 @@
+{
+    "name": "wmarigny/api-store",
+    "description": "a REST API to play with some stores",
+    "authors": [
+        {
+            "name": "William Marigny",
+            "email": "william.marigny@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "altorouter/altorouter": "^2.0",
+        "ramsey/uuid": "^4.2"
+    }
+}
